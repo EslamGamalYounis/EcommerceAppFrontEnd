@@ -36,7 +36,7 @@ export class SignInComponent implements OnInit {
 
       let username=data["userName"];
       localStorage.setItem("username",username);
-      this.router.navigateByUrl("/userhome")
+      this.router.navigateByUrl("./userhome/userproduct")
       //islam yzabat elroute da
      // this.router.navigate(['/profile']);
         // this.tokenStorage.saveToken(data.accessToken);

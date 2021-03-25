@@ -18,7 +18,7 @@ export class AddToCartComponent implements OnInit {
 
   cashed=false
 
-  constructor(@Inject("") private msg: MessengerService,private payment:CartToOrderService) { }
+  constructor(private msg: MessengerService,private payment:CartToOrderService) { }
   ngOnInit()
    {
      if(!this.msg.cashed)

@@ -17,6 +17,7 @@ export class UserProfileComponent implements OnInit {
         console.log(respond)
 
         this.profile=respond["user"]
+        console.log(this.profile);
       },
       (error)=>{
         console.log(error)
