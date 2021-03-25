@@ -1,4 +1,53 @@
-<div class="navbar navbar-expand-lg navbar-light navBgColor container-fluid">
+
+  <div class="navbar bg-primary navbar-expand-lg navbar-light  container-fluid">
+
+    <div class="navbar navbar-expand-lg navbar-light  d-inline text-left">
+      <div class="container-fluid justify-content-center">
+        <a class="navbar-brand Active WebsiteHeader">Ecommerce For Clothes</a>
+      </div>
+    </div>
+
+    <div class="container justify-content-end">
+      <ul class="nav justify-content-end">
+        <li class="nav-item">
+          <a class="nav-link text-white firstNavAnchor" [routerLinkActiveOptions]='{exact:true}' routerLinkActive="text-dark bg-white rounded " routerLink="/generalHome">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white firstNavAnchor" routerLinkActive="text-dark bg-white  rounded"  routerLink="/help">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white firstNavAnchor" routerLinkActive="text-dark bg-white rounded" routerLink="/signUp">Sign UP</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white firstNavAnchor" routerLinkActive="text-dark bg-white rounded" routerLink="/adminSignIn">Admin SignIn</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white firstNavAnchor" routerLinkActive="text-dark bg-white rounded" routerLink="/signIn">Sign In</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="container-fluid pl-0 pr-0 forhome">
+    <router-outlet></router-outlet>
+  </div>
+
+
+
+<!-- start of footer -->
+        <footer class="footer mt-auto py-3 text-center text-white">
+          <div class="container">
+              <p class=" mb-1">© Copyright <span class="font-weight-6">ECommerce for clothes</span>. All Rights Reserved</p>
+              <p class=" mb-0">Designed by <a href="javascript:" class="text-white">ITI SD ULTIMATE TEAM</a></p>
+          </div>
+      </footer>
+      <!--End of Footer-->
+
+<!-- <app-admin-products></app-admin-products>
+<app-add-product></app-add-product> -->
+
+
+<!-- <div class="navbar navbar-expand-lg navbar-light navBgColor container-fluid">
 
   <div class="navbar navbar-expand-lg navbar-light navBgColor d-inline text-left">
     <div class="container-fluid justify-content-center">
@@ -30,8 +79,4 @@
 <div class="container-fluid pl-0 pr-0 bg-white">
   <router-outlet></router-outlet>
 </div>
-
-
-
-<!-- <app-admin-products></app-admin-products>
-<app-add-product></app-add-product> -->
+ -->
