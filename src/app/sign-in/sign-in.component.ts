@@ -37,15 +37,6 @@ export class SignInComponent implements OnInit {
       let username=data["userName"];
       localStorage.setItem("username",username);
       this.router.navigateByUrl("./userhome/userproduct")
-      //islam yzabat elroute da
-     // this.router.navigate(['/profile']);
-        // this.tokenStorage.saveToken(data.accessToken);
-        // this.tokenStorage.saveUser(data);
-
-        // this.isLoginFailed = false;
-        // this.isLoggedIn = true;
-        // this.roles = this.tokenStorage.getUser().roles;
-        // this.reloadPage();
       },
       err => {
         this.errorMessage = err.error.message;
