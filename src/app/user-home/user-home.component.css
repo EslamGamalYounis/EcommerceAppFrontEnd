@@ -2,10 +2,12 @@
   color: white !important;
   margin-left: 15px;
 }
+.nav-item a:hover{
+  background-color: aliceblue;
+  color: black !important;
+  border-radius: 9px;
+  }
 
-.navItem:hover{
-  background-color: rgb(4, 4, 117);
-}
 
 .promImgClass{
   object-fit: cover;
@@ -29,6 +31,5 @@
   margin-left: 550px  !important;
 }
 
-.navBgColor{
-  background-color: rgb(5, 5, 177) !important;
-}
+
+

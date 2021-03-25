@@ -1,5 +1,13 @@
-.firstNavAnchor:hover{
-  background-color:rgb(4, 4, 117);
+.forhome{
+  background-color: rgb(224, 235, 235);
+}
+.navbar{
+  position: sticky !important;
+}
+.nav-item a:hover{
+  background-color: aliceblue;
+  color: black !important;
+  border-radius: 9px;
   }
 
   .WebsiteHeader{
@@ -7,7 +15,23 @@
     font-size: 30px;
     font-weight: bold;
   }
-
-  .navBgColor{
+li a{
+  font-size: large;
+}
+  /* .navBgColor{
     background-color: rgb(5, 5, 177) !important;
+  } */
+
+
+
+
+  /*----------------------------------------
+      11.  Theme footer CSS here
+  ----------------------------------------*/
+  footer {background: #0062d3;
+  position:fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 5;
   }

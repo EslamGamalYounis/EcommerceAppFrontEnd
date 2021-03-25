@@ -32,3 +32,54 @@
 .navBgColor{
   background-color: rgb(5, 5, 177) !important;
 }
+
+
+.contact-us .contact-card {position: relative;z-index: 2;
+}
+
+.contact-us form .btn-submit .btn {
+    font-size: 1.2rem;
+    background: #0078ff;
+    border: 0;
+    padding: 10px 24px;
+    color: #fff;
+    border-radius: 5rem;
+}
+
+.contact-us .socials a {
+    height: 40px;
+    width: 40px;
+    font-size: 1.7rem;
+    border-radius: 50%;
+    line-height: 1.4;
+    margin: 0 10px 0 0;
+    -webkit-box-shadow: 0 0 0 3px #0078ff;
+    box-shadow: 0 0 0 3px #0078ff;
+    -webkit-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+    color: #1e1e1e;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.contact-us .socials a:hover {
+    text-decoration: none;
+    background-color: #0078ff;
+    -webkit-box-shadow: 0 0 0 3px #cde1f8;
+    box-shadow: 0 0 0 3px #cde1f8;
+    color: #fff;
+}
+
+
+/*----------------------------------------
+    11.  Theme footer CSS here
+----------------------------------------*/
+footer {background: #0062d3;}
