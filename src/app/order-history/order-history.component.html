@@ -31,7 +31,7 @@
               <td>{{order.price}}</td>
               <td>{{order.status.toUpperCase()}}</td>
 
-              <td *ngif="order.status==pending" (click)="delete(order._id)"><i class="fas fa-trash"></i></td>
+              <button class="btn btn-danger" (click)="delete(order._id)">Delete <i class="fas fa-trash"></i></button>
             </tr>
           </tbody>
         </table>
